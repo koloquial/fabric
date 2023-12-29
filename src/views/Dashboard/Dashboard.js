@@ -15,7 +15,6 @@ const Dashboard = () => {
             await logout()
             navigate('/splash');
         }catch(e){
-            console.log('error logging out')
             setError('Failed to log out.')
         }
     }
