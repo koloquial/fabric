@@ -8,7 +8,9 @@ const Splash = () => {
     const [active, setActive] = useState('signup');
 
     return (
-        <Container className='d-flex align-items-center justify-content-center' style={{minHeight: '100vh'}}>
+        <Container 
+            className='d-flex align-items-center justify-content-center' 
+            style={{minHeight: '100vh'}}>
             <Row>
                 <Col lg={12}>
                     <h1>Fabric</h1>
